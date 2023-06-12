@@ -2,6 +2,7 @@ import time
 import timeit
 
 
+# this decorator will write information about the time spent on the function to a file
 def timer(func):
     def wrapper(*args, **kwargs):
         start_time = timeit.default_timer()
@@ -14,10 +15,12 @@ def timer(func):
     return wrapper
 
 
+# creating function with decorator
 @timer
 def my_function():
     time.sleep(2)
     print("Function completed")
 
 
+# calling function
 my_function()

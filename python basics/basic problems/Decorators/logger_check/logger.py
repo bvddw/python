@@ -2,6 +2,7 @@ import datetime
 file = open('check.txt', 'w')
 
 
+# creating a decorator that will write information about the function we called to a file
 def logger(func):
     def wrapper(*args, **kwargs):
         now_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -10,11 +11,13 @@ def logger(func):
     return wrapper
 
 
+# creating function
 @logger
 def add(a, b):
     return a + b
 
 
+# calling for test
 add(3, 5)
 add(2, 4)
 file.close()
