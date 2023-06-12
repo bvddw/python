@@ -1,0 +1,2 @@
+[2023-06-12 23:46:53] Function add called with arguments: (3, 5), {}
+[2023-06-12 23:46:53] Function add called with arguments: (2, 4), {}
