@@ -1,0 +1,4 @@
+Function completed.
+Execution time: 2.0042017999949167 seconds.
+Function completed.
+Execution time: 1.9998101999954088 seconds.
