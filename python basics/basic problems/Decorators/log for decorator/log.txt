@@ -1,0 +1,2 @@
+Function: add_numbers, Arguments: ((2, 3), {}), Result: 5
+Function: multiply_numbers, Arguments: ((4, 5), {}), Result: 20
